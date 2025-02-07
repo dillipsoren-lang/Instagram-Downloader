@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Instagram Video/Image Downloader</h2>
+        <input type="text" id="instaUrl" placeholder="Paste Instagram URL here">
+        <button onclick="fetchMedia()">Download</button>
+        <div class="result" id="result"></div>
+        <div class="media-preview" id="mediaPreview"></div>
+        <a href="#" class="download-btn" id="downloadBtn" download>Download</a>
+
+        <button class="refresh-btn" onclick="refreshPage()">Refresh</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
