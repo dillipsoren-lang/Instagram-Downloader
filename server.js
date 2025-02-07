@@ -21,7 +21,7 @@ app.get("/download", async (req, res) => {
 
         const response = await axios.get(`https://instagram230.p.rapidapi.com/post/comments?pk=${postId}`, {
             headers: {
-                "x-rapidapi-key": process.env.RAPIDAPI_KEY,
+                "x-rapidapi-key": process.env.46941062cdmshdb4ff8711fa424bp16077fjsn1ef5ef78ed28,
                 "x-rapidapi-host": "instagram230.p.rapidapi.com"
             }
         });
